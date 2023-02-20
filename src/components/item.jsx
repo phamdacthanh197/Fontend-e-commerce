@@ -8,7 +8,7 @@ import { shades } from "../theme";
 import { addToCart, setIsCartOpen } from "../pages/cartSlice";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react';
-
+import { URL } from '../api/config';
 
 
 const Item = ({ item }) => {
@@ -50,7 +50,7 @@ const Item = ({ item }) => {
           <img 
             width="300px"
             height="400px"
-            src={`http://localhost:1337${url}`}
+            src={`${URL}${url}`}
             onClick={() => navigate(`/item/${item.id}`)}
             style={{ cursor: "pointer"}}
           />

@@ -1,0 +1,1 @@
+export const URL = "https://fashion-shop.herokuapp.com"
