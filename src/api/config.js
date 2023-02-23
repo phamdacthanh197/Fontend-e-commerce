@@ -1,1 +1,1 @@
-export const URL = "https://fashion-shop.herokuapp.com"
+export const domainName = "https://fashion-shop.herokuapp.com"
